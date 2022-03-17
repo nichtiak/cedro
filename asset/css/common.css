@@ -1,0 +1,77 @@
+body {
+    font-family: 'TT Norms Regular';
+}
+header {
+    background-color: #008000;
+}
+a {
+    text-decoration: none;
+}
+:root {
+    --color-main: #21242E;
+    --color-additional: #D0BC7A;
+  }
+.header {
+    padding: 0 38px 0 38px;
+}
+ .menu_list>li {
+    list-style-type: none;
+    font-family: TT Norms Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+ }
+ .menu_list>li>a {
+    color: var(--color-main);
+ }
+ .menu_list>li>a:hover {
+    color: var(--color-additional);
+ }
+ .menu_list>li>a:hover>span {
+     color: var(--color-additional);
+ }
+ .menu_list>li>a:hover>svg>path {
+    fill: var(--color-additional);
+}
+.navPhone > span{
+    font-size: 14px;
+    color: var(--color-additional);
+    /* background-color: red; */
+}
+.navPhone:hover>span {
+    color: var(--color-main);
+}
+.navPhone:hover>.icon>path {
+    fill: var(--color-main);
+}
+/* .icon {
+    fill: var(--color-additional);
+} */
+.icon>path {
+    fill: var(--color-additional);
+}
+.icon:hover>path {
+    fill: var(--color-main);
+}
+.container {
+    /* padding: 10px; */
+    background-color: red;
+    height: 64px;
+}
+.row {
+    margin-left: 0px;
+    width: 1280px;
+    background-color: rgb(253, 253, 253);
+}
+.logo {
+    background-color: rgb(64, 84, 104);
+}
+.menu_list {
+    background-color: skyblue;
+    display: flex;
+    /* flex-direction: row; */
+}
+.navBar {
+    background-color: rgb(41, 117, 117);
+}
